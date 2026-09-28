@@ -4,7 +4,7 @@ cask "unslow" do
 
   url "https://unslow.app/downloads/Unslow-#{version}.dmg"
   name "Unslow"
-  desc "Finds why your Mac is slow and fixes what can be fixed"
+  desc "Finds what is slowing the computer down and fixes what can be fixed"
   homepage "https://unslow.app/"
 
   livecheck do
@@ -14,7 +14,7 @@ cask "unslow" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Unslow.app"
 

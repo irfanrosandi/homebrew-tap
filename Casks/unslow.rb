@@ -1,6 +1,6 @@
 cask "unslow" do
-  version "1.3.1"
-  sha256 "cabadf96e0b7dcbe77b7837318a3343723993e461c45523f4685d66e99fbe73d"
+  version "1.3.2"
+  sha256 "1628fbae6bd1838e3b22e141ffb1ce04576d6ad4c3d67933c3af358ac31d00f3"
 
   url "https://unslow.app/downloads/Unslow-#{version}.dmg"
   name "Unslow"
